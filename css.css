@@ -1,0 +1,108 @@
+body{font-family:'Droid Sans',sans-serif;letter-spacing:1px;background-color:#000306;color:white;text-align:center;text-shadow:0px 5px 10px black;}
+a{color:#62BECB;}
+a:hover{color:#82DEEB;}
+ul{line-height:150%;}
+ul,p{margin-top:5px;margin-bottom:0;}
+form ul{list-style-type:none;padding-left:25px;}
+input[type=text]{width:640px;max-width:calc(100% - 8em);}
+#error{border:1px dotted white;background:brown;display:none;padding:5px 10px;margin:30px 10px;}
+.container{background-color:#3F4038;border-color:#5B3E38;width:760px;margin:40px auto;text-align:left;max-width:calc(100% - 10px);border-style:solid;border-width:1px;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px; overflow:hidden;}
+.main{background-image: linear-gradient(navy, blue);}
+.button{
+  background-color:aqua
+}
+input {
+  box-shadow: 0px 5px 10px grey;
+  border: none;
+  background-color: hsl(0, 0%, 90%);
+  color: black;
+  transition-duration: 0.4s;
+}
+
+input:hover {
+  background-color: hsl(0, 0%, 80%);
+  color: black;
+  transition-duration: 0.4s;
+}
+
+.header {
+  background-color: hsl(0, 0%, 90%);
+  color: black;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0px 5px 10px grey;
+}
+
+h3 {
+  
+}
+
+body {
+  background-color: #fcf5ee;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.textHolder {
+  background-color: hsl(0, 0%, 90%);
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 0px 5px 10px grey;
+  padding: 20px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: hsl(0, 0%, 90%);
+  color: black;
+  box-shadow: 0px 5px 10px grey;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px black;
+}
+
+.navbar a:hover {
+  background-color: hsl(0, 0%, 80%);
+  color: black;
+  transition-duration: 0.4s;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #9F9F9F;
+  box-shadow: 10px 10px 50px grey;
+  color: black;
+  text-align: center;
+}
+
+.footer a {
+  color: black;
+  text-decoration: none;
+}
+
+.img {
+  background-image: url("https://cdn.glitch.com/f11cddb4-cc4c-4e35-b19d-fe3fa43679c8%2Fthumbnails%2F76c3d72d-59be-4035-af74-a4cef12c9b34.image.png?1580323670884");
+}
+
+btn {
+  box-shadow: 0px 5px 10px grey;
+  border: none;
+  transition-duration: 0.4s;
+  text-shadow: 0px 5px 10px grey;
+}
+
+btn:primary {
+  background-color: hsl(220, 90%, 56%);
+}
