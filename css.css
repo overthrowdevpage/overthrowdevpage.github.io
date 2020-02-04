@@ -97,8 +97,13 @@ body {
 }
 .btn a {
   box-shadow: 0px 5px 10px grey;
+  color: white;
   border: none;
   transition-duration: 0.4s;
   background-color: hsl(220, 90%, 56%);
 }
 
+.btn a:hover {
+  background-color: hsl(220, 90%, 40%);
+  transition-duration: 0.4s;
+}
