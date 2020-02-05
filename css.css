@@ -110,3 +110,8 @@ body {
 .btn a:hover {
   background-color: hsl(220, 90%, 42%);
 }
+
+img {
+  width: 10%;
+  height 10%;
+}
